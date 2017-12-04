@@ -22,9 +22,16 @@ form = """
                     width: 540px;
                     height: 120px;
                 }}
+                h1, p {{
+                    font-family: verdana;
+                    text-align: center;
+                }}
             </style>
         </head>
         <body>
+            <h1>Caesar Cipher</h1>
+            <p><strong>Encryption </strong>Enter a message and the number of letters to rotate the message by.</p>
+            <p>Rotating a message by 13 to encrypt and the then by 13 again will return the original message.</p>
             <form action="/" method="POST">
                 <label>Rotate by:
                  <input type="text" name="rot" value="0">
