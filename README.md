@@ -7,6 +7,7 @@ This is a project for unit 2 of LaunchCode LC 101. A string of text is encrypted
 * Flask
 * HTML
 * Bootstrap
+* Heroku
 
 ## Functionality
 
