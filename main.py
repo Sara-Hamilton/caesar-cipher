@@ -35,12 +35,12 @@ form = """
             <form action="/" method="POST">
                 <label>Rotate by:
                  <input type="text" name="rot" value="0">
-                </label> 
+                </label>
                 <textarea name="text">{0}</textarea>
                 <input type="submit" value="Submit Query">
-            </form>        
+            </form>
         </body>
-    </html> 
+    </html>
 """
 
 @app.route("/")
