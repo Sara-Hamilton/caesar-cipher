@@ -19,7 +19,7 @@ form = """
                     background-color: #eee;
                     background-color: #80A7AF;
                     padding: 20px;
-                    margin: 0 auto;
+                    margin: 5vh auto;
                     width: 540px;
                     font: 16px sans-serif;
                     border-radius: 10px;
@@ -28,6 +28,9 @@ form = """
                     margin: 10px 0;
                     width: 540px;
                     height: 120px;
+                }}
+                h1 {{
+                    padding: 10vh 0 0 0;
                 }}
                 h1, p {{
                     font-family: verdana;
