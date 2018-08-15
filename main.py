@@ -56,4 +56,5 @@ def encrypt():
     result = "<h1>" + rotated_string + "</h1>"
     return form.format(rotated_string)
 
-app.run()
+if __name__=="__main__":
+    app.run()
