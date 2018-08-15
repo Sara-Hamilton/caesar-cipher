@@ -43,6 +43,8 @@ form = """
                     padding: 10px 22px;
                 }}
                 footer {{
+                    font-size: 14px;
+                    font-family: verdana;
                     color: white;
                     position: absolute;
                     bottom: 0;
