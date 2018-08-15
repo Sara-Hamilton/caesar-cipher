@@ -9,8 +9,15 @@ form = """
     <html>
         <head>
             <style>
+                html, body{{
+                  background: url('https://images.unsplash.com/photo-1514820402329-de527fdd2e6d?ixlib=rb-0.3.5&s=5c41456ea7b33814c0507de11c14ec9b&auto=format&fit=crop&w=1952&q=80') no-repeat center center fixed;
+                  -moz-background-size: cover;
+                  -o-background-size: cover;
+                  background-size: cover;
+                }}
                 form{{
                     background-color: #eee;
+                    background-color: #80A7AF;
                     padding: 20px;
                     margin: 0 auto;
                     width: 540px;
@@ -25,6 +32,12 @@ form = """
                 h1, p {{
                     font-family: verdana;
                     text-align: center;
+                    color: white;
+                }}
+                input[type=submit] {{
+                    background-color: white;
+                    border: none;
+                    padding: 10px 22px;
                 }}
             </style>
         </head>
