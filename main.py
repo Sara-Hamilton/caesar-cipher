@@ -10,7 +10,7 @@ form = """
         <head>
             <style>
                 html, body{{
-                  background: url('https://images.unsplash.com/photo-1514820402329-de527fdd2e6d?ixlib=rb-0.3.5&s=5c41456ea7b33814c0507de11c14ec9b&auto=format&fit=crop&w=1952&q=80') no-repeat center center fixed;
+                  background: url('https://images.unsplash.com/photo-1514820402329-de527fdd2e6d?ixlib=rb-0.3.5&s=5c41456ea7b33814c0507de11c14ec9b&auto=format&fit=crop&w=1952&q=80') no-repeat fixed;
                   -moz-background-size: cover;
                   -o-background-size: cover;
                   background-size: cover;
@@ -42,6 +42,12 @@ form = """
                     border: none;
                     padding: 10px 22px;
                 }}
+                footer {{
+                    color: white;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }}
             </style>
         </head>
         <body>
@@ -55,6 +61,7 @@ form = """
                 <textarea name="text">{0}</textarea>
                 <input type="submit" value="Submit Query">
             </form>
+            <footer>Photo by Ariel Besagar on Unsplash</footer>
         </body>
     </html>
 """
