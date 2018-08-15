@@ -1,6 +1,6 @@
-# web-caesar
+# caesar-cipher
 
-This is a project for unit 2 of LaunchCode LC 101. A string of text is encrypted. Visit the deployed app at https://quiet-journey-76113.herokuapp.com/
+This is a project for unit 2 of LaunchCode LC 101. A string of text is encrypted. Visit the deployed app at https://sara-caesar-cipher.herokuapp.com/
 
 ## Built With
 * Python
@@ -29,11 +29,11 @@ https://www.python.org/downloads/
 
 clone the github respository
 ```
-$ git clone https://github.com/Sara-Hamilton/web-caesar
+$ git clone https://github.com/Sara-Hamilton/caesar-cipher
 ```
 move into the directory
 ```
-$ cd web-caeser
+$ cd caeser-cipher
 ```
 run the application
 ```
