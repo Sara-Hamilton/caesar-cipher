@@ -1,6 +1,6 @@
 # web-caesar
 
-This is a project for unit 2 of LaunchCode LC 101. A string of text is encrypted.
+This is a project for unit 2 of LaunchCode LC 101. A string of text is encrypted. Visit the deployed app at https://quiet-journey-76113.herokuapp.com/
 
 ## Built With
 * Python
@@ -21,3 +21,22 @@ If a string is encrytped with a rotation of 13 and then encrypted again with a r
   #
   * input - "Hello World!" rotated by 13
   * output - "Uryyb Jbeyq!"
+
+## Installation
+
+install python 3.6.4
+https://www.python.org/downloads/
+
+clone the github respository
+```
+$ git clone https://github.com/Sara-Hamilton/web-caesar
+```
+move into the directory
+```
+$ cd web-caeser
+```
+run the application
+```
+$ python main.py
+```
+view the app at localhost:5000
